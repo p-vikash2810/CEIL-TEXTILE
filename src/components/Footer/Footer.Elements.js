@@ -79,7 +79,7 @@ export const LeftTopHeading = styled.div`
   }
 
   @media screen and (max-width: 960px) {
-    font-size: 24px;
+    font-size: 18px;
     width: auto;
   }
 `;
