@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CEIL-TEXTILE/static/css/main.22cd3067.chunk.css",
-    "main.js": "/CEIL-TEXTILE/static/js/main.e164a303.chunk.js",
-    "main.js.map": "/CEIL-TEXTILE/static/js/main.e164a303.chunk.js.map",
+    "main.js": "/CEIL-TEXTILE/static/js/main.76274046.chunk.js",
+    "main.js.map": "/CEIL-TEXTILE/static/js/main.76274046.chunk.js.map",
     "runtime-main.js": "/CEIL-TEXTILE/static/js/runtime-main.61124ca2.js",
     "runtime-main.js.map": "/CEIL-TEXTILE/static/js/runtime-main.61124ca2.js.map",
     "static/js/2.cabe1bc6.chunk.js": "/CEIL-TEXTILE/static/js/2.cabe1bc6.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.61124ca2.js",
     "static/js/2.cabe1bc6.chunk.js",
     "static/css/main.22cd3067.chunk.css",
-    "static/js/main.e164a303.chunk.js"
+    "static/js/main.76274046.chunk.js"
   ]
 }
