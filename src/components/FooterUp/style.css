@@ -1,0 +1,67 @@
+.FooterSec {
+  width: 100vw;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+}
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.Heading {
+  font-size: 20px;
+  color: #2a3b4a;
+  text-transform: uppercase;
+  /* position: absolute; */
+}
+
+.TextContainer {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+
+}
+.TextSec {
+  display: flex;
+
+  /* margin: 0 auto; */
+  white-space: nowrap;
+  /* position: absolute; */
+}
+
+.TextWrapper {
+  display: flex;
+  width: 100%;
+  /* display: inline-block; */
+  animation: marquee 50s linear infinite;
+}
+
+.TextSec2 {
+  animation-delay: 15s;
+
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+.TextWrapper > span {
+  font-weight: 300;
+  font-size: 17px;
+  color: #2a3b4a;
+  width: 200px;
+  border-left: 1px solid black;
+}
