@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/CEIL-TEXTILE/static/css/main.22cd3067.chunk.css",
+    "main.js": "/CEIL-TEXTILE/static/js/main.e164a303.chunk.js",
+    "main.js.map": "/CEIL-TEXTILE/static/js/main.e164a303.chunk.js.map",
+    "runtime-main.js": "/CEIL-TEXTILE/static/js/runtime-main.61124ca2.js",
+    "runtime-main.js.map": "/CEIL-TEXTILE/static/js/runtime-main.61124ca2.js.map",
+    "static/js/2.cabe1bc6.chunk.js": "/CEIL-TEXTILE/static/js/2.cabe1bc6.chunk.js",
+    "static/js/2.cabe1bc6.chunk.js.map": "/CEIL-TEXTILE/static/js/2.cabe1bc6.chunk.js.map",
+    "static/js/3.87859ff4.chunk.js": "/CEIL-TEXTILE/static/js/3.87859ff4.chunk.js",
+    "static/js/3.87859ff4.chunk.js.map": "/CEIL-TEXTILE/static/js/3.87859ff4.chunk.js.map",
+    "index.html": "/CEIL-TEXTILE/index.html",
+    "static/css/main.22cd3067.chunk.css.map": "/CEIL-TEXTILE/static/css/main.22cd3067.chunk.css.map",
+    "static/js/2.cabe1bc6.chunk.js.LICENSE.txt": "/CEIL-TEXTILE/static/js/2.cabe1bc6.chunk.js.LICENSE.txt",
+    "static/media/Fine_Knit.2445c7ba.jpeg": "/CEIL-TEXTILE/static/media/Fine_Knit.2445c7ba.jpeg",
+    "static/media/Knitwear.45c4ade3.jpeg": "/CEIL-TEXTILE/static/media/Knitwear.45c4ade3.jpeg",
+    "static/media/Second.f1b03121.jpeg": "/CEIL-TEXTILE/static/media/Second.f1b03121.jpeg",
+    "static/media/Third.b9d141c0.jpeg": "/CEIL-TEXTILE/static/media/Third.b9d141c0.jpeg",
+    "static/media/Woven.911ae672.jpeg": "/CEIL-TEXTILE/static/media/Woven.911ae672.jpeg",
+    "static/media/logo.59f0dd20.png": "/CEIL-TEXTILE/static/media/logo.59f0dd20.png",
+    "static/media/logo_white.657660ed.png": "/CEIL-TEXTILE/static/media/logo_white.657660ed.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.61124ca2.js",
+    "static/js/2.cabe1bc6.chunk.js",
+    "static/css/main.22cd3067.chunk.css",
+    "static/js/main.e164a303.chunk.js"
+  ]
+}
