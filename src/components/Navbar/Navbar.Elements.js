@@ -7,8 +7,8 @@ export const Nav = styled.div`
 `;
 export const NavContainer = styled.div`
   display: flex;
-  height: 100px;
-  width: 94vw;
+  height: 70px;
+  width: 100vw;
   align-items: center;
   justify-content: space-between;
   /* margin: 0 50px; */
@@ -20,6 +20,7 @@ export const NavContainer = styled.div`
   }
 `;
 export const NavLeft = styled.div`
+/* align-items: center; */
   /* flex: 0.18; */
   & > img {
     /* background: url("https://www.cieltextile.com/themes/custom/front/assets/images/interface/logo__white.svg"); */
@@ -27,6 +28,10 @@ export const NavLeft = styled.div`
     height: 100%;
     color: white;
     background-repeat: no-repeat;
+
+    @media screen and (max-width: 960px) {
+      width: 50vw;
+    }
   }
 `;
 

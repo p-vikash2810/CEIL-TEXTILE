@@ -125,6 +125,10 @@ export const HeadingTwo = styled.span`
   text-align: center;
   color: ${({ lightText }) => (lightText ? "#fff" : "#2a3b4a")};
   max-width: 90%;
+
+  @media screen and (max-width: 760px) {
+    font-size: 24px;
+  }
 `;
 export const Description = styled.span`
   font-size: 22px;
@@ -134,6 +138,11 @@ export const Description = styled.span`
   text-align: start;
   margin-bottom: 20px;
   color: ${({ lightText }) => (lightText ? "#fff" : "#2a3b4a")};
+
+  @media screen and (max-width: 760px) {
+    font-size: 20px;
+    width: 90%;
+  }
 `;
 export const Button = styled.div`
   border: 1px solid #2a3b4a;
