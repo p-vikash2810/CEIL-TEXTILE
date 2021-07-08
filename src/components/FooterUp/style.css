@@ -1,25 +1,28 @@
 .FooterSec {
   width: 100vw;
-  height: 200px;
+  height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   overflow: hidden;
-
+  position: relative;
 }
 .Container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 50%;
+  height: 20%;
   justify-content: space-between;
-  margin: auto;
+  /* margin: auto; */
+  margin-bottom: 30px;
+  position: absolute;
 }
 
 .Heading {
   font-size: 20px;
-  color: #2a3b4a;
+  /* color: #2a3b4a; */
+  color: azure;
   text-transform: uppercase;
   /* position: absolute; */
 }
@@ -28,7 +31,6 @@
   display: flex;
   width: 100%;
   overflow: hidden;
-
 }
 .TextSec {
   display: flex;
@@ -47,7 +49,6 @@
 
 .TextSec2 {
   animation-delay: 15s;
-
 }
 
 @keyframes marquee {
@@ -61,7 +62,16 @@
 .TextWrapper > span {
   font-weight: 300;
   font-size: 17px;
-  color: #2a3b4a;
+  /* color: #2a3b4a; */
+  color: azure;
   width: 200px;
   border-left: 1px solid black;
+}
+
+.video {
+  /* position: absolute; */
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  z-index: 10;
 }

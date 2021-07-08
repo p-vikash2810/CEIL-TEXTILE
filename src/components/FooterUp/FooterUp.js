@@ -12,6 +12,12 @@ import "./style.css";
 const FooterUp = () => {
   return (
     <div className="FooterSec">
+       <video autoPlay muted loop playsInline>
+        <source
+          src="https://www.cieltextile.com/sites/default/files/2020-08/Ciel%20Overview%20Short%20Version%20v4%20Compress.mp4"
+          type="video/mp4"
+        ></source>
+      </video>
       <div className="Container">
         <div className="Heading">WE TAKE TO THEM EVERYDAY...</div>
         <div className="TextContainer">
@@ -47,6 +53,7 @@ const FooterUp = () => {
           </div>
         </div>
       </div>
+      
     </div>
   );
 };

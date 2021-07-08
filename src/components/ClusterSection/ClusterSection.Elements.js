@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {color1, color2} from "../../globalStyles"
+import { color1, color2 } from "../../globalStyles";
 
 export const ClusterSec = styled.div`
   flex: 1/3;
@@ -15,6 +15,12 @@ export const ClusterSec = styled.div`
   align-items: center;
   border: 0.5px solid #fff;
   position: relative;
+  background: rgb(107, 102, 99);
+  background: linear-gradient(
+    50deg,
+    rgba(107, 102, 99, 1) 20%,
+    rgba(227, 224, 222, 1) 100%
+  );
 
   &:hover {
     /* background: url("https://www.cieltextile.com/sites/default/files/styles/cluster_homapage_640x1080_/public/2020-10/1219_Ciel_D05_OC_S9_0117%20-%20Copy_0.jpg?h=ee9a606a&itok=uAkj7W0w"); */
@@ -22,6 +28,7 @@ export const ClusterSec = styled.div`
     /* cursor: pointer; */
     /* background: rgba(255,255,255,.7); */
     transform: translate(0px);
+
     background: transparent;
     /* &::before {
       flex: 1/3;
@@ -47,7 +54,7 @@ export const ClusterSec = styled.div`
       /* align-items: center; */
     }
 
-    & > div > div > div,
+    & > div > div > div > div,
     div > div > span {
       color: ${color1};
     }
@@ -62,18 +69,42 @@ export const ClusterSec = styled.div`
         display: none;
       }
     }
-    & > button {
+    & > div > button {
       display: flex;
       align-items: center;
       justify-content: center;
       color: #2a3b4a;
-      background: #fff;
-      border: 1px solid #2a3b4a;
+      /* background: #fff; */
+      border: 3px solid #2a3b4a;
+      border-radius: 5px;
+      position: relative;
+      z-index: 1;
+      transition: ease-out 0.3s;
+      outline: none;
 
       &:hover {
-        background: ${color1};
+        /* background: ${color1}; */
         color: #fff;
         /* z-index: 1; */
+      }
+      &::before {
+        transition: 0.5s all ease;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        right: 50%;
+        bottom: 0;
+        opacity: 0;
+        content: "";
+        background-color: #2a3b4a;
+      }
+
+      &:hover::before {
+        transition: 0.5s all ease;
+        top: 0;
+        right: 0;
+        opacity: 1;
+        z-index: -1;
       }
 
       @media screen and (max-width: 960px) {
@@ -154,6 +185,24 @@ export const BackgroundImg = styled.div`
   }
 `;
 
+export const Wrapper = styled.div`
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  align-self: bottom;
+
+  @media screen and (max-width: 960px) {
+    align-items: flex-end;
+    height: 100%;
+    flex-direction: row;
+  }
+`;
+
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -164,6 +213,7 @@ export const Container = styled.div`
   justify-content: space-evenly;
   margin: auto;
   align-self: bottom;
+  /* backdrop-filter: blur(10px); */
 
   @media screen and (max-width: 960px) {
     align-items: flex-start;
@@ -265,6 +315,7 @@ export const Button = styled.button`
   background: transparent;
   border: none;
   margin-bottom: 50px;
+  cursor: pointer;
 
   &:hover {
     background: #2a3b4a;

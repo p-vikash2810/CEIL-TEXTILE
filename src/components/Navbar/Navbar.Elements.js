@@ -12,7 +12,7 @@ export const NavContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   /* margin: 0 50px; */
-  z-index: 1;
+  z-index: 100;
   position: fixed;
 
   @media screen and (max-width: 960px) {
@@ -101,6 +101,7 @@ export const NavItem = styled.span`
   text-transform: uppercase;
   font-size: 14px;
   color: #fff;
+  cursor: pointer;
   /* margin-left: 30px; */
 
   @media screen and (max-width: 960px) {

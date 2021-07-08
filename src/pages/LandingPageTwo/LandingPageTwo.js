@@ -5,7 +5,7 @@ import FashionSection from '../../components/FashionSection/FashionSection'
 const LandingPageTwo = () => {
     return (
         <div>
-            <FashionSection {...fashionObjOne}/>
+            {/* <FashionSection {...fashionObjOne}/> */}
             <FashionSection {...fashionObjTwo} />
         </div>
     )

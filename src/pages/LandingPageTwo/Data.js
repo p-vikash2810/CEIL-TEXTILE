@@ -15,7 +15,7 @@ export const fashionObjOne = {
 
 export const fashionObjTwo = {
   bigSec: true,
-  lightText: true,
+  lightText: false,
   imageSrc:
     Third,
   headingOne: "SUSTAINABILITY",

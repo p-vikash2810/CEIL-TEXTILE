@@ -1,6 +1,6 @@
 import styled, { keyframes } from "styled-components";
-import {color1, color2} from "../../globalStyles"
-
+import { color1, color2 } from "../../globalStyles";
+import bgImage from "../../Images/51.jpg";
 
 export const FashionSec = styled.div`
   width: 100vw;
@@ -9,9 +9,16 @@ export const FashionSec = styled.div`
   margin-bottom: 30px;
   padding: auto;
   background: ${({ lightBg }) => (lightBg ? "#fff" : `${color1}`)};
+  background-image: url(${bgImage});
+  background-size: cover;
+  border: 2px solid black;
 
   @media screen and (max-width: 960px) {
     height: ${({ bigSec }) => (bigSec ? "230vh" : "120vh")};
+  }
+
+  @media screen and (max-width: 760px) {
+    height: ${({ bigSec }) => (bigSec ? "180vh" : "120vh")};
   }
 `;
 export const Container = styled.div`
@@ -22,6 +29,10 @@ export const Container = styled.div`
   /* height: 100%; */
   margin: auto;
   flex-direction: ${({ imgStart }) => (imgStart ? "row" : "row-reverse")};
+  border: 2px solid #fff;
+  border-radius: 26px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
 
   @media screen and (max-width: 960px) {
     /* display: flex; */
@@ -40,19 +51,21 @@ const breatheAnimation = keyframes`
   }
 `;
 export const Left = styled.div`
-  flex: 0.6;
+  flex: 1;
   position: relative;
   display: flex;
   align-items: center;
+  border-radius: 26px;
 
   /* animation: marquee 50s linear 200px; */
   /* transform: translate(-50%,-50%); */
 `;
 export const Image = styled.img`
-  width: 89%;
+  width: 100%;
+  border-radius: 26px;
+
   /* transform: transition(-100%, 0);
   transition: all 0.5s ease; */
-
 
   @media screen and (max-width: 960px) {
     width: 100%;
@@ -77,12 +90,18 @@ export const ImageAnimation = styled.div`
   /* right: 0; */
 `;
 export const Right = styled.div`
-  flex: 0.4;
+  flex: 0.9;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   /* height: 40%; */
   justify-content: space-evenly;
+  border-radius: 26px;
+  max-width: 80%;
+  
+
+
+
 
   @media screen and (max-width: 960px) {
     /* display: flex;
@@ -93,7 +112,7 @@ export const Right = styled.div`
     /* height: auto; */
   }
 `;
-export const HeadingOne = styled.span`
+export const HeadingOne = styled.h1`
   font-size: 34px;
   line-height: 34px;
   margin-bottom: 20px;
@@ -103,8 +122,9 @@ export const HeadingTwo = styled.span`
   font-size: 34px;
   line-height: 34px;
   margin-bottom: 40px;
-  text-align: start;
+  text-align: center;
   color: ${({ lightText }) => (lightText ? "#fff" : "#2a3b4a")};
+  max-width: 90%;
 `;
 export const Description = styled.span`
   font-size: 22px;

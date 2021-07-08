@@ -1,4 +1,4 @@
-import styled, {keyframes} from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 const animation = keyframes`
   0% {
@@ -7,8 +7,9 @@ const animation = keyframes`
   100% {
     transform: translate(-100%, 0);
   }
-`
+`;
 export const FooterSec = styled.div`
+  position: relative;
   width: 100vw;
   height: 200px;
   display: flex;
@@ -40,7 +41,6 @@ export const TextSec = styled.div`
   grid-gap: 10px;
   grid-template-columns: repeat(6, calc(50% - 40px));
   grid-template-rows: minmax(150px, 1fr); */
-  
 `;
 
 export const TextWrapper = styled.div`
@@ -55,4 +55,17 @@ export const Text = styled.span`
   color: #2a3b4a;
   width: 200px;
   border-left: 1px solid black;
+`;
+
+export const Video = styled.video`
+  /* position: absolute; */
+  width: 100vw;
+  height: auto;
+  top: 0px;
+  z-index: -1;
+  /* float: left; */
+  /* display: block; */
+  /* position: inherit; */
+  /* width: max-content; */
+  /* box-sizing: border-box; */
 `;

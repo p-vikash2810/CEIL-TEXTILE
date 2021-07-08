@@ -10,8 +10,10 @@ import {
   HeadingOne,
   HeadingTwo,
   Description,
-  Button,
+  // Button,
 } from "./FashionSection.Elements";
+import CustomButton from "../custom-button/custom-button.component";
+
 
 const FashionSection = ({
   imageSrc,
@@ -37,7 +39,7 @@ const FashionSection = ({
           <HeadingOne lightText={lightText}>{headingOne}</HeadingOne>
           <HeadingTwo lightText={lightText}>{headingTwo}</HeadingTwo>
           <Description lightText={lightText}>{description}</Description>
-          <Button btnLight={btnLight}>{buttonTag}</Button>
+          <CustomButton btnLight={btnLight}>{buttonTag}</CustomButton>
         </Right>
       </Container>
     </FashionSec>
