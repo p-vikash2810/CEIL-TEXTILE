@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer';
 import HomePage from './pages/HomePage/HomePage';
 import TalentPage from './pages/TalentPage/TalentPage';
 import CardPage from './pages/CardPage/CardPage';
+import CitiesSlider from './components/city-slider/CitySlider';
 
 function App() {
   return (

@@ -19,7 +19,7 @@ const FooterUp = () => {
         ></source>
       </video>
       <div className="Container">
-        <div className="Heading">WE TAKE TO THEM EVERYDAY...</div>
+        <h1 className="Heading">WE TAKE TO THEM EVERYDAY...</h1>
         <div className="TextContainer">
           <div className="TextSec">
             <div className="TextWrapper">

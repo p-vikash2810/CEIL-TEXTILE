@@ -10,30 +10,29 @@ import {
   NavItemCenter,
   NavItem,
   NavRight,
-  Video,
   MobileIcon,
   NavMenu,
 } from "./Navbar.Elements";
 
 const Navbar = () => {
-  const [showNav, setShowNav] = useState(true);
+  // const [showNav, setShowNav] = useState(true);
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
-  const controlNavbar = () => {
-    if (window.scrollY > 100) {
-      setShowNav(false);
-    } else {
-      setShowNav(true);
-    }
-  };
+  // const controlNavbar = () => {
+  //   if (window.scrollY > 100) {
+  //     setShowNav(false);
+  //   } else {
+  //     setShowNav(true);
+  //   }
+  // };
 
-  useEffect(() => {
-    window.addEventListener("scroll", controlNavbar);
-    return () => {
-      window.removeEventListener("scroll", controlNavbar);
-    };
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", controlNavbar);
+  //   return () => {
+  //     window.removeEventListener("scroll", controlNavbar);
+  //   };
+  // }, []);
 
   // const showButton = () => {
   //   if (window.innerWidth <= 960) {
@@ -48,14 +47,40 @@ const Navbar = () => {
   // }, []);
 
   // window.addEventListener("resize", showButton);
+
+  const [shouldShowActions, setShouldShowActions] = useState(true);
+  const [lastYPos, setLastYPos] = useState(0);
+  useEffect(() => {
+    function handleScroll() {
+      const yPos = window.scrollY;
+      const isScrollingUp = yPos < lastYPos;
+
+      yPos > 100 && setShouldShowActions(isScrollingUp);
+      setLastYPos(yPos);
+    }
+
+    window.addEventListener("scroll", handleScroll, false);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll, false);
+    };
+  }, [lastYPos]);
   return (
     <Nav>
-      <NavContainer style={{ display: `${showNav ? "flex" : "none"}` }}>
+      <NavContainer
+        style={{
+          display: shouldShowActions ? "flex" : "none",
+        }}
+      >
         <NavLeft>
           <img src={logo} alt="nav_logo" />
         </NavLeft>
         <MobileIcon onClick={handleClick}>
-          {click ? <FaTimes /> : <FaBars />}
+          {click ? (
+            <FaTimes style={{ color: "#fff" }} />
+          ) : (
+            <FaBars style={{ color: "#fff" }} />
+          )}
         </MobileIcon>
         <NavMenu onClick={handleClick} click={click}>
           <NavCenter>
@@ -73,12 +98,6 @@ const Navbar = () => {
           </NavRight>
         </NavMenu>
       </NavContainer>
-      {/* <Video autoPlay muted loop playsInline>
-        <source
-          src="https://www.cieltextile.com/sites/default/files/2020-08/Ciel%20Overview%20Short%20Version%20v4%20Compress.mp4"
-          type="video/mp4"
-        ></source>
-      </Video> */}
     </Nav>
   );
 };

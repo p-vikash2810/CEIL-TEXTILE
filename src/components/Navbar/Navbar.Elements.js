@@ -14,6 +14,9 @@ export const NavContainer = styled.div`
   /* margin: 0 50px; */
   z-index: 100;
   position: fixed;
+  background: black;
+  /* transition: all ease-out 0.4s; */
+  /* transition-duration: 0.4s; */
 
   @media screen and (max-width: 960px) {
     width: 100vw;

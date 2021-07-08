@@ -1,11 +1,10 @@
 import React from "react";
-import HomeSlider from "../../components/HomeSlider/HomeSlider";
-import { SliderData } from "./SliderData";
+import CitiesSlider from "../..//components/city-slider/CitySlider"
 
 const HomePage = () => {
   return (
     <div>
-      <HomeSlider SliderData={SliderData} />
+      <CitiesSlider />
     </div>
   );
 };

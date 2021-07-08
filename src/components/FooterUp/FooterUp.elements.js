@@ -25,8 +25,8 @@ export const Container = styled.div`
   justify-content: space-between;
   margin: auto;
 `;
-export const Heading = styled.span`
-  font-size: 20px;
+export const Heading = styled.h1`
+  /* font-size: 20px; */
   color: #2a3b4a;
   text-transform: uppercase;
 `;

@@ -54,7 +54,7 @@ export const ClusterSec = styled.div`
       /* align-items: center; */
     }
 
-    & > div > div > div > div,
+    & > div > div > div > h1,
     div > div > span {
       color: ${color1};
     }
@@ -228,7 +228,7 @@ export const HeadLineSec = styled.div`
   align-items: center;
   /* margin-bottom: 100px; */
 `;
-export const HeadLine = styled.div`
+export const HeadLine = styled.h1`
   opacity: 1;
   color: #fff;
   font-size: 36px;

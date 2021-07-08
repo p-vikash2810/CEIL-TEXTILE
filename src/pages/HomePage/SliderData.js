@@ -13,60 +13,88 @@ export const SliderData = [
     title: "Write Title Here",
     subTitle: "Description about this image",
     label: "",
-    imageUrl: imageOne,
+    img: imageOne,
   },
   {
     title: "Write Title Here",
     subTitle: "Description about this image",
     label: "",
-    imageUrl: imageTwo,
+    img: imageTwo,
   },
   {
     title: "Write Title Here",
     subTitle: "Description about this image",
     label: "",
-    imageUrl: imageThree,
+    img: imageThree,
   },
   {
     title: "Write Title Here",
     subTitle: "Description about this image",
     label: "",
-    imageUrl: imageFour,
+    img: imageFour,
   },
   {
     title: "Write Title Here",
     subTitle: "Description about this image",
     label: "",
-    imageUrl: imageFive,
+    img: imageFive,
   },
   {
     title: "Write Title Here",
     subTitle: "Description about this image",
     label: "",
-    imageUrl: imageSix,
+    img: imageSix,
   },
   {
     title: "Write Title Here",
     subTitle: "Description about this image",
     label: "",
-    imageUrl: imageSeven,
+    img: imageSeven,
   },
   {
     title: "Write Title Here",
     subTitle: "Description about this image",
     label: "",
-    imageUrl: imageEight,
+    img: imageEight,
   },
   {
     title: "Write Title Here",
     subTitle: "Description about this image",
     label: "",
-    imageUrl: imageNine,
+    img: imageNine,
   },
   {
     title: "Write Title Here",
     subTitle: "Description about this image",
     label: "",
-    imageUrl: imageTen,
+    img: imageTen,
+  },
+];
+
+
+export const slides = [
+  {
+    city: 'Paris',
+    country: 'France',
+    img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/paris.jpg',
+  },
+  {
+    city: 'Singapore',
+    img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/singapore.jpg',
+  },
+  {
+    city: 'Prague',
+    country: 'Czech Republic',
+    img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/prague.jpg',
+  },
+  {
+    city: 'Amsterdam',
+    country: 'Netherlands',
+    img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/amsterdam.jpg',
+  },
+  {
+    city: 'Moscow',
+    country: 'Russia',
+    img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/moscow.jpg',
   },
 ];
