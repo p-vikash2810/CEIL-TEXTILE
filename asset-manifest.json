@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/CEIL-TEXTILE/static/css/main.0d1fb39f.chunk.css",
-    "main.js": "/CEIL-TEXTILE/static/js/main.62f705a8.chunk.js",
-    "main.js.map": "/CEIL-TEXTILE/static/js/main.62f705a8.chunk.js.map",
-    "runtime-main.js": "/CEIL-TEXTILE/static/js/runtime-main.ea590607.js",
-    "runtime-main.js.map": "/CEIL-TEXTILE/static/js/runtime-main.ea590607.js.map",
-    "static/js/2.a87a098a.chunk.js": "/CEIL-TEXTILE/static/js/2.a87a098a.chunk.js",
-    "static/js/2.a87a098a.chunk.js.map": "/CEIL-TEXTILE/static/js/2.a87a098a.chunk.js.map",
-    "static/js/3.dbeeec4d.chunk.js": "/CEIL-TEXTILE/static/js/3.dbeeec4d.chunk.js",
-    "static/js/3.dbeeec4d.chunk.js.map": "/CEIL-TEXTILE/static/js/3.dbeeec4d.chunk.js.map",
+    "main.css": "/CEIL-TEXTILE/static/css/main.6d9149bc.chunk.css",
+    "main.js": "/CEIL-TEXTILE/static/js/main.6d7a6b40.chunk.js",
+    "main.js.map": "/CEIL-TEXTILE/static/js/main.6d7a6b40.chunk.js.map",
+    "runtime-main.js": "/CEIL-TEXTILE/static/js/runtime-main.351343fb.js",
+    "runtime-main.js.map": "/CEIL-TEXTILE/static/js/runtime-main.351343fb.js.map",
+    "static/js/2.c5d1d04b.chunk.js": "/CEIL-TEXTILE/static/js/2.c5d1d04b.chunk.js",
+    "static/js/2.c5d1d04b.chunk.js.map": "/CEIL-TEXTILE/static/js/2.c5d1d04b.chunk.js.map",
+    "static/js/3.a1d6167d.chunk.js": "/CEIL-TEXTILE/static/js/3.a1d6167d.chunk.js",
+    "static/js/3.a1d6167d.chunk.js.map": "/CEIL-TEXTILE/static/js/3.a1d6167d.chunk.js.map",
     "index.html": "/CEIL-TEXTILE/index.html",
-    "static/css/main.0d1fb39f.chunk.css.map": "/CEIL-TEXTILE/static/css/main.0d1fb39f.chunk.css.map",
-    "static/js/2.a87a098a.chunk.js.LICENSE.txt": "/CEIL-TEXTILE/static/js/2.a87a098a.chunk.js.LICENSE.txt",
+    "static/css/main.6d9149bc.chunk.css.map": "/CEIL-TEXTILE/static/css/main.6d9149bc.chunk.css.map",
+    "static/js/2.c5d1d04b.chunk.js.LICENSE.txt": "/CEIL-TEXTILE/static/js/2.c5d1d04b.chunk.js.LICENSE.txt",
     "static/media/02.07aa764b.jpg": "/CEIL-TEXTILE/static/media/02.07aa764b.jpg",
     "static/media/05.f042d7ff.jpg": "/CEIL-TEXTILE/static/media/05.f042d7ff.jpg",
     "static/media/08d.ac702e6c.jpg": "/CEIL-TEXTILE/static/media/08d.ac702e6c.jpg",
@@ -39,9 +39,9 @@
     "static/media/logo_white.657660ed.png": "/CEIL-TEXTILE/static/media/logo_white.657660ed.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ea590607.js",
-    "static/js/2.a87a098a.chunk.js",
-    "static/css/main.0d1fb39f.chunk.css",
-    "static/js/main.62f705a8.chunk.js"
+    "static/js/runtime-main.351343fb.js",
+    "static/js/2.c5d1d04b.chunk.js",
+    "static/css/main.6d9149bc.chunk.css",
+    "static/js/main.6d7a6b40.chunk.js"
   ]
 }
