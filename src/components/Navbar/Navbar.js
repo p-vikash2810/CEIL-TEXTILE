@@ -15,41 +15,13 @@ import {
 } from "./Navbar.Elements";
 
 const Navbar = () => {
-  // const [showNav, setShowNav] = useState(true);
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
-  // const controlNavbar = () => {
-  //   if (window.scrollY > 100) {
-  //     setShowNav(false);
-  //   } else {
-  //     setShowNav(true);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   window.addEventListener("scroll", controlNavbar);
-  //   return () => {
-  //     window.removeEventListener("scroll", controlNavbar);
-  //   };
-  // }, []);
-
-  // const showButton = () => {
-  //   if (window.innerWidth <= 960) {
-  //     setButton(false);
-  //   } else {
-  //     setButton(true);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   showButton();
-  // }, []);
-
-  // window.addEventListener("resize", showButton);
 
   const [shouldShowActions, setShouldShowActions] = useState(true);
   const [lastYPos, setLastYPos] = useState(0);
+  
   useEffect(() => {
     function handleScroll() {
       const yPos = window.scrollY;
@@ -77,18 +49,18 @@ const Navbar = () => {
         </NavLeft>
         <MobileIcon onClick={handleClick}>
           {click ? (
-            <FaTimes style={{ color: "#fff" }} />
+            <FaTimes style={{ color: "#000" }} />
           ) : (
-            <FaBars style={{ color: "#fff" }} />
+            <FaBars style={{ color: "#000" }} />
           )}
         </MobileIcon>
         <NavMenu onClick={handleClick} click={click}>
-          <NavCenter>
+          <NavCenter onClick={handleClick} click={click}>
             <NavItemCenter>WOVEN</NavItemCenter>
             <NavItemCenter>FINE KNITS</NavItemCenter>
             <NavItemCenter>KNITWEAR</NavItemCenter>
           </NavCenter>
-          <NavRight>
+          <NavRight onClick={handleClick} click={click}>
             <NavItem>ABOUT US</NavItem>
             <NavItem>TALENTS</NavItem>
             <NavItem>SUSTAINABILITY</NavItem>

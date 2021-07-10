@@ -1,9 +1,4 @@
-/* #root { height: 100% }
-html,
-body {
-  position: relative;
-  height: 100%;
-} */
+
 
 .swiperBody {
     width: 100vw;
@@ -18,12 +13,14 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    height: 70vh;
   }
 
 .swiper-container {
   width: 80%;
   /* padding-top: 50px; */
   padding-bottom: 50px;
+  height: 350px;
   /* height: 50vh; */
 }
 

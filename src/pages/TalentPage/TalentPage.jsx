@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "./TalentPage.styles";
 import Newsletter from "../../components/Newsletter/Newsletter";
-import { fashionObjOne } from "./Data";
+import { fashionObjOne, fashionObjTwo, fashionObjThree } from "./Data";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -38,10 +38,10 @@ const TalentPage = () => {
           <Newsletter fashionObjOne={fashionObjOne} />
         </SwiperSlide>
         <SwiperSlide>
-          <Newsletter fashionObjOne={fashionObjOne} />
+          <Newsletter fashionObjOne={fashionObjTwo} />
         </SwiperSlide>
         <SwiperSlide>
-          <Newsletter fashionObjOne={fashionObjOne} />
+          <Newsletter fashionObjOne={fashionObjThree} />
         </SwiperSlide>
       </Swiper>
     </Container>

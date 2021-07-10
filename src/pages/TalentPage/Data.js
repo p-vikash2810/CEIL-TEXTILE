@@ -14,14 +14,27 @@ export const fashionObjOne = {
 };
 
 export const fashionObjTwo = {
-  bigSec: true,
-  lightText: true,
+  lightBg: true,
+  imgStart: true,
+  bigSec: false,
   // imageSrc:
   //   Third,
-  headingOne: "SUSTAINABILITY",
-  headingTwo: "NOT BECAUSE WE HAVE TWO, BUT BECAUSE WE WANT TO",
-  description:
-    "Our world is made up of two important resources: people and environment. We're not perfect, but we try our best to nurture both resources.",
-  buttonTag: "DISCOVER HOW WE DO IT",
+  headingOne: "COMPLIANCE",
+  headingTwo: "BECOME THE CHANGE",
+  description: "We're on a mission to improve fashion and all we need, is you",
+  buttonTag: "JOIN US NOW",
+  btnLight: true,
+};
+
+export const fashionObjThree = {
+  lightBg: true,
+  imgStart: true,
+  bigSec: false,
+  // imageSrc:
+  //   Third,
+  headingOne: "SAFETY",
+  headingTwo: "BECOME THE CHANGE",
+  description: "We're on a mission to improve fashion and all we need, is you",
+  buttonTag: "JOIN US NOW",
   btnLight: true,
 };

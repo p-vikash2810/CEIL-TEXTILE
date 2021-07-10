@@ -52,7 +52,7 @@ class CitiesSlider extends React.Component {
     console.log(collection);
     return (
       <div className={classNames("slider", { "s--ready": sliderReady })}>
-        <p className="slider__top-heading">Sunny International</p>
+        {/* <p className="slider__top-heading">Sunny International</p> */}
         <div className="slider__slides">
           {collection.map((slide, index) => (
             <div
