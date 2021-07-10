@@ -14,7 +14,7 @@ export const NavContainer = styled.div`
   /* margin: 0 50px; */
   z-index: 100;
   position: fixed;
-  background: black;
+  background: #cececa;
   /* transition: all ease-out 0.4s; */
   /* transition-duration: 0.4s; */
 
@@ -108,7 +108,7 @@ export const NavItem = styled.span`
   font-weight: 400;
   text-transform: uppercase;
   font-size: 14px;
-  color: #fff;
+  color: #403e3d;
   cursor: pointer;
   /* margin-left: 30px; */
 
@@ -122,7 +122,7 @@ export const NavItemCenter = styled.span`
   font-weight: 600;
   text-transform: uppercase;
   font-size: 14px;
-  color: #fff;
+  color: #403e3d;
   /* margin-left: 30px; */
 
   @media screen and (max-width: 960px) {
@@ -135,6 +135,14 @@ export const NavRight = styled.div`
   min-width: 500px;
   display: flex;
   justify-content: space-between;
+
+  /* display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-left: 30px; */
 
   @media screen and (max-width: 960px) {
     display: flex;

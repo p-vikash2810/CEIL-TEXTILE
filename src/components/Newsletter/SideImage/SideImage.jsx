@@ -4,7 +4,7 @@ import second from "../../../Images/Second.jpeg"
 
 const SideImage = () => {
     return (
-        <SideImageContainer>
+        <SideImageContainer style={{height: "auto"}}>
             <Image>
                 <img src={second} alt="building" />
             </Image>

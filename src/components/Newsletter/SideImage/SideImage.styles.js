@@ -22,6 +22,8 @@ export const SideImageContainer = styled.div`
     max-width: 100%;
     width: 100%;
     /* flex: 2; */
+    height: auto;
+
     clip-path: none;
     border-radius: 26px;
   }
@@ -36,7 +38,7 @@ export const Image = styled.div`
 
   overflow: hidden;
 
-  img {
+  & > img {
     width: 100%;
     height: 100%;
     /* border-top-right-radius: 26px;
@@ -46,12 +48,15 @@ export const Image = styled.div`
   }
 
   @media screen and (max-width: 960px) {
-    width: 100%;
-    height: 100%;
+    width: 80vw;
+    height: 60vw;
     border: 26px;
+    height: auto;
+
 
     img {
       border-radius: 26px;
+      
     }
   }
 `;

@@ -17,7 +17,7 @@ function App() {
       <LandingPageOne />
       <TalentPage />
 
-      <LandingPageTwo />
+      {/* <LandingPageTwo /> */}
       <CardPage />
       <FooterUp />
       <Footer />

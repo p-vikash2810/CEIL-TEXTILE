@@ -1,9 +1,8 @@
 import React from "react";
 import { DetailContainer, HeadingOne, HeadingTwo, Description } from "./Details.styles";
-import { fashionObjOne } from "./Data"
 import { Button } from "../../custom-button/custom-button.styles";
 
-const Details = () => {
+const Details = ({fashionObjOne}) => {
   return (
     <DetailContainer>
       <HeadingOne lightText={fashionObjOne.lightText}>{fashionObjOne.headingOne}</HeadingOne>
