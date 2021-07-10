@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/CEIL-TEXTILE/static/css/main.6d9149bc.chunk.css",
-    "main.js": "/CEIL-TEXTILE/static/js/main.29ea8ca2.chunk.js",
-    "main.js.map": "/CEIL-TEXTILE/static/js/main.29ea8ca2.chunk.js.map",
-    "runtime-main.js": "/CEIL-TEXTILE/static/js/runtime-main.351343fb.js",
-    "runtime-main.js.map": "/CEIL-TEXTILE/static/js/runtime-main.351343fb.js.map",
-    "static/js/2.c5d1d04b.chunk.js": "/CEIL-TEXTILE/static/js/2.c5d1d04b.chunk.js",
-    "static/js/2.c5d1d04b.chunk.js.map": "/CEIL-TEXTILE/static/js/2.c5d1d04b.chunk.js.map",
-    "static/js/3.a1d6167d.chunk.js": "/CEIL-TEXTILE/static/js/3.a1d6167d.chunk.js",
-    "static/js/3.a1d6167d.chunk.js.map": "/CEIL-TEXTILE/static/js/3.a1d6167d.chunk.js.map",
+    "main.css": "/CEIL-TEXTILE/static/css/main.f4fa4f98.chunk.css",
+    "main.js": "/CEIL-TEXTILE/static/js/main.211d5068.chunk.js",
+    "main.js.map": "/CEIL-TEXTILE/static/js/main.211d5068.chunk.js.map",
+    "runtime-main.js": "/CEIL-TEXTILE/static/js/runtime-main.53683125.js",
+    "runtime-main.js.map": "/CEIL-TEXTILE/static/js/runtime-main.53683125.js.map",
+    "static/css/2.c66a4c2f.chunk.css": "/CEIL-TEXTILE/static/css/2.c66a4c2f.chunk.css",
+    "static/js/2.a8a5d064.chunk.js": "/CEIL-TEXTILE/static/js/2.a8a5d064.chunk.js",
+    "static/js/2.a8a5d064.chunk.js.map": "/CEIL-TEXTILE/static/js/2.a8a5d064.chunk.js.map",
+    "static/js/3.b5e83991.chunk.js": "/CEIL-TEXTILE/static/js/3.b5e83991.chunk.js",
+    "static/js/3.b5e83991.chunk.js.map": "/CEIL-TEXTILE/static/js/3.b5e83991.chunk.js.map",
     "index.html": "/CEIL-TEXTILE/index.html",
-    "static/css/main.6d9149bc.chunk.css.map": "/CEIL-TEXTILE/static/css/main.6d9149bc.chunk.css.map",
-    "static/js/2.c5d1d04b.chunk.js.LICENSE.txt": "/CEIL-TEXTILE/static/js/2.c5d1d04b.chunk.js.LICENSE.txt",
+    "static/css/2.c66a4c2f.chunk.css.map": "/CEIL-TEXTILE/static/css/2.c66a4c2f.chunk.css.map",
+    "static/css/main.f4fa4f98.chunk.css.map": "/CEIL-TEXTILE/static/css/main.f4fa4f98.chunk.css.map",
+    "static/js/2.a8a5d064.chunk.js.LICENSE.txt": "/CEIL-TEXTILE/static/js/2.a8a5d064.chunk.js.LICENSE.txt",
     "static/media/02.07aa764b.jpg": "/CEIL-TEXTILE/static/media/02.07aa764b.jpg",
-    "static/media/05.f042d7ff.jpg": "/CEIL-TEXTILE/static/media/05.f042d7ff.jpg",
     "static/media/08d.ac702e6c.jpg": "/CEIL-TEXTILE/static/media/08d.ac702e6c.jpg",
     "static/media/15.cf824b86.jpg": "/CEIL-TEXTILE/static/media/15.cf824b86.jpg",
     "static/media/17.d482d89e.jpg": "/CEIL-TEXTILE/static/media/17.d482d89e.jpg",
@@ -26,6 +27,7 @@
     "static/media/51.0795fb15.jpg": "/CEIL-TEXTILE/static/media/51.0795fb15.jpg",
     "static/media/Fine_Knit.2445c7ba.jpeg": "/CEIL-TEXTILE/static/media/Fine_Knit.2445c7ba.jpeg",
     "static/media/Knitwear.45c4ade3.jpeg": "/CEIL-TEXTILE/static/media/Knitwear.45c4ade3.jpeg",
+    "static/media/Logo.ea00c2c5.svg": "/CEIL-TEXTILE/static/media/Logo.ea00c2c5.svg",
     "static/media/Second.f1b03121.jpeg": "/CEIL-TEXTILE/static/media/Second.f1b03121.jpeg",
     "static/media/Third.b9d141c0.jpeg": "/CEIL-TEXTILE/static/media/Third.b9d141c0.jpeg",
     "static/media/Woven.911ae672.jpeg": "/CEIL-TEXTILE/static/media/Woven.911ae672.jpeg",
@@ -35,13 +37,13 @@
     "static/media/apparel04.8ee43e57.jpg": "/CEIL-TEXTILE/static/media/apparel04.8ee43e57.jpg",
     "static/media/apparel05.9c5ab5f5.jpg": "/CEIL-TEXTILE/static/media/apparel05.9c5ab5f5.jpg",
     "static/media/apparel06.757398cc.jpg": "/CEIL-TEXTILE/static/media/apparel06.757398cc.jpg",
-    "static/media/logo.59f0dd20.png": "/CEIL-TEXTILE/static/media/logo.59f0dd20.png",
-    "static/media/logo_white.657660ed.png": "/CEIL-TEXTILE/static/media/logo_white.657660ed.png"
+    "static/media/logo.59f0dd20.png": "/CEIL-TEXTILE/static/media/logo.59f0dd20.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.351343fb.js",
-    "static/js/2.c5d1d04b.chunk.js",
-    "static/css/main.6d9149bc.chunk.css",
-    "static/js/main.29ea8ca2.chunk.js"
+    "static/js/runtime-main.53683125.js",
+    "static/css/2.c66a4c2f.chunk.css",
+    "static/js/2.a8a5d064.chunk.js",
+    "static/css/main.f4fa4f98.chunk.css",
+    "static/js/main.211d5068.chunk.js"
   ]
 }
