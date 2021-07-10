@@ -14,7 +14,12 @@ import "swiper/components/navigation/navigation.min.css";
 import "./styles.css";
 
 // import Swiper core and required modules
-import SwiperCore, { Autoplay, EffectFlip, Pagination, Navigation } from "swiper/core";
+import SwiperCore, {
+  Autoplay,
+  EffectFlip,
+  Pagination,
+  Navigation,
+} from "swiper/core";
 
 // install Swiper modules
 SwiperCore.use([Autoplay, EffectFlip, Pagination, Navigation]);

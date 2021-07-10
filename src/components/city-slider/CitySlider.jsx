@@ -49,7 +49,6 @@ class CitiesSlider extends React.Component {
 
   render() {
     const { activeSlide, prevSlide, sliderReady, collection } = this.state;
-    console.log(collection);
     return (
       <div className={classNames("slider", { "s--ready": sliderReady })}>
         {/* <p className="slider__top-heading">Sunny International</p> */}

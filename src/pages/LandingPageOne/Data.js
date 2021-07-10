@@ -1,11 +1,11 @@
-import FineKnit from "../../Images/Fine_Knit.jpeg";
-import KnitWear from "../../Images/Knitwear.jpeg";
-import Woven from "../../Images/Woven.jpeg";
-import Second from "../../Images/Second.jpeg";
-import Third from "../../Images/Third.jpeg";
+// import FineKnit from "../../Images/Fine_Knit.jpeg";
+// import KnitWear from "../../Images/Knitwear.jpeg";
+// import Woven from "../../Images/Woven.jpeg";
+// import Second from "../../Images/Second.jpeg";
+// import Third from "../../Images/Third.jpeg";
 
 export const clusterObjOne = {
-  backgroundImageLink: Woven,
+  backgroundImageLink: "https://ik.imagekit.io/vikashGallery/sunnyInternational/tr:w-600/Woven.jpeg",
   headLine: "WOVEN",
   description:
     "We know shirts. Take a look at what it's like to work with experts.",
@@ -22,7 +22,7 @@ export const clusterObjOne = {
 };
 
 export const clusterObjTwo = {
-  backgroundImageLink: FineKnit,
+  backgroundImageLink: "https://ik.imagekit.io/vikashGallery/sunnyInternational/tr:w-600/Fine_Knit.jpeg",
   headLine: "FINE KNITS",
   description:
     "We know shirts. Take a look at what it's like to work with experts.",
@@ -39,7 +39,7 @@ export const clusterObjTwo = {
 };
 
 export const clusterObjThree = {
-  backgroundImageLink: KnitWear,
+  backgroundImageLink: "https://ik.imagekit.io/vikashGallery/sunnyInternational/tr:w-600/Knitwear.jpeg",
   headLine: "KNITWEAR",
   description:
     "We know shirts. Take a look at what it's like to work with experts.",

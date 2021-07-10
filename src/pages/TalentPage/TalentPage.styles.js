@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import imgbg from "../../Images/50.jpg";
 
 export const Container = styled.div`
   width: 100vw;
@@ -13,7 +12,6 @@ export const Container = styled.div`
     rgba(254, 193, 130, 1) 20%,
     rgba(254, 160, 142, 1) 100%
   );
-  /* background-image: url(${imgbg}); */
   object-fit: cover;
   background-size: contain;
   background: rgb(61, 61, 61);
