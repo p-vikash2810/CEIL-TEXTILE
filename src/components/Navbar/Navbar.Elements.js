@@ -52,7 +52,7 @@ export const NavMenu = styled.div`
     height: 90vh;
     position: absolute;
     top: 110px;
-    right: ${({ click }) => (click ? 0 : "-100%")};
+    right: ${({ click }) => (click ? 0 : "-350px")};
     /* opacity: 1; */
     transition: all 0.5s ease;
     background: #101522;
@@ -91,7 +91,7 @@ export const NavCenter = styled.div`
     height: 20vh;
     position: absolute;
     top: 10px;
-    right: ${({ click }) => (click ? 0 : "-100%")};
+    right: ${({ click }) => (click ? 0 : "-350px")};
     transition: all 0.5s ease;
     background: #101522;
     z-index: 150;
@@ -135,7 +135,7 @@ export const NavRight = styled.div`
   position: absolute;
   /* top: 30vh; */
   top: 110px;
-  right: ${({ click }) => (click ? 0 : "-100%")};
+  right: ${({ click }) => (click ? 0 : "-350px")};
   transition: all 0.5s ease;
   background: #101522;
   z-index: 100;

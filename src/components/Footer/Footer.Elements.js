@@ -53,7 +53,7 @@ export const Left = styled.div`
   }
 
   @media screen and (max-width: 960px) {
-    width: 90%;
+    width: 100%;
     margin-bottom: 40px;
   }
 `;
@@ -89,6 +89,7 @@ export const LeftBottom = styled.div`
   flex-wrap: wrap;
 
   @media screen and (max-width: 960px) {
+    display: none;
     width: 100%;
   }
 `;
@@ -163,6 +164,9 @@ export const RightTopHeading = styled.div`
 
   @media screen and (max-width: 1170px) {
     margin-right: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+
   }
 `;
 export const RightBottom = styled.div`

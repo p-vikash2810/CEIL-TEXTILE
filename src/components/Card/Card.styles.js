@@ -10,6 +10,8 @@ export const CardSec = styled.div`
   transition: transform 500ms ease;
   height: 240px;
   margin: 20px;
+  display: flex;
+  flex-direction: column;
 
   &:hover {
     transform: scale(1.05);
@@ -20,6 +22,7 @@ export const CardSec = styled.div`
     & > div {
       transform: translateY(0);
       transition-delay: 500ms;
+      /* height: 200px; */
     }
     & > div > *:not(h1) {
       opacity: 1;
@@ -44,8 +47,8 @@ export const CardSec = styled.div`
   }
 `;
 export const CardContent = styled.div`
-  --padding: 1.5rem;
-  padding: var(--padding);
+  --padding: 1.9rem;
+  padding-top: var(--padding);
   background: linear-gradient(
     hsl(0 0% 0% / 0),
     hsl(20 0% 0% / 0.3) 20%,
@@ -53,6 +56,10 @@ export const CardContent = styled.div`
   );
   transform: translateY(65%);
   transition: transform 500ms ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 220px;
 
   & > *:not(h1) {
     opacity: 0;

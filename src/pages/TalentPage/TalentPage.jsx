@@ -27,11 +27,11 @@ const TalentPage = () => {
         grabCursor={true}
         // pagination={true}
         navigation={true}
-        // loop={true}
-        // autoplay={{
-        //   delay: 1000,
-        //   disableOnInteraction: false,
-        // }}
+        loop={true}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
         className="mySwiper"
       >
         <SwiperSlide>

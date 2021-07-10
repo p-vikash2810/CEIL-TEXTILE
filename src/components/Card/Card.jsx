@@ -9,7 +9,7 @@ const Card = ({ cardDetail }) => {
       <CardContent>
         <CardHeader>{cardDetail.cardHeader}</CardHeader>
         <CardDes>{cardDetail.cardDes}</CardDes>
-        <CustomButton>Show More</CustomButton>
+        <CustomButton style={{width: "190px"}}>Show More</CustomButton>
       </CardContent>
     </CardSec>
   );
